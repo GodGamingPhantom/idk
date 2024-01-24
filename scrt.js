@@ -29,7 +29,7 @@ form.addEventListener('submit', function(event) {
  form.reset();
  })
  .catch(error => {
- alert('Error sending message to Discord!');
+ alert('Error sending message!');
  console.error(error);
  });
 });
