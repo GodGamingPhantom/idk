@@ -22,9 +22,9 @@ form.addEventListener('submit', function(event) {
  })
  .then(response => {
  if (!response.ok) {
- alert('Error sending message to Discord!');
+ alert('Error sending message!');
  } else {
- alert('Your secret message has been sent to Discord!');
+ alert('Your secret message has been sent!');
  }
  form.reset();
  })
